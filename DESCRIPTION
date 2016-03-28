@@ -1,0 +1,19 @@
+Package: threejswrapper
+Type: Package
+Title: ThreeJS Wrapper for R
+Version: 0.1
+Date: 2016-03-28
+Authors@R: person("Luis", "Rodriguez-Lujan", email = "luis.rodriguezl@upm.es", role = c("aut", "cre"))
+Description: Create interactive 3D plots using the 'three.js' library ("http://
+    threejs.org"). It is just a set of wrapper functions to use trheeJS from R to create specific 3D plots.
+License: MIT + file LICENSE
+Depends:
+    R (>= 3.0.0)
+Imports:
+    htmlwidgets (>= 0.3.2)
+Suggests:
+    shiny (>= 0.13.0),
+    Rvcg (>= 0.12.0)
+Enhances: knitr, shiny
+LazyData: TRUE
+RoxygenNote: 5.0.1

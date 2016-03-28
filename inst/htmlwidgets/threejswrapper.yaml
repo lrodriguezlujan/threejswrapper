@@ -1,0 +1,19 @@
+dependencies:
+  - name: threejs
+    version: 75
+    src: "htmlwidgets/lib/threejs-75"
+    script:
+      - three.min.js
+      - Detector.js
+      - Projector.js
+      - CanvasRenderer.js
+      - MixedControls.js
+      - Lut.js
+  - name: threejswrapper
+    version: 01
+    src: "htmlwidgets/lib/threejswrapper-01"
+    script:
+      - threejswrapper.js
+      - threejswrapper.geometries.js
+      - threejswrapper.lights.js
+      - threejswrapper.helpers.js
